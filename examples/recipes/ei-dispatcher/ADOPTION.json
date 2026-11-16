@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "upstream": {
+    "repository": "KKKKhazix/agent-autoloop",
+    "commit": "1b89219558a493d701cb20e2c3b1876576709889",
+    "license": "MIT"
+  },
+  "fork": "kornishin-oss/agent-autoloop",
+  "status": "ISOLATED_ADOPTION_BASELINE",
+  "execution_enabled": false,
+  "project_controller": "AI PCC",
+  "execution_system": "CONVEYOR",
+  "evidence_system": "EI",
+  "scope": ["data envelope example", "persistent kernel wait/resume test", "dormant rules profile"],
+  "not_implemented": [
+    "live AI PCC connector",
+    "native agent activation",
+    "four-environment handoff",
+    "enforced owner approval gate",
+    "calibrated duration and price forecast",
+    "internal/external quote and discount UI"
+  ],
+  "evidence_boundary": "This manifest is documentation, not a runtime permission guard. Kernel tests use synthetic state and no actual agent.",
+  "activation_requires": [
+    "trusted scope/authority freshness check",
+    "exact artifact review",
+    "separate executor isolation and rights check",
+    "explicit selection of project and executor"
+  ],
+  "schedules": "NOT_CONFIGURED",
+  "notifications": "NO_CHANNELS_CONFIGURED"
+}
